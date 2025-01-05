@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+INSTALL
+build
+crawl/__pycache__
+crawl.egg-info
