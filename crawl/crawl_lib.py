@@ -12,6 +12,14 @@ def SaveJson(content, json_path:str):
         json.dump(content, fp)
 
 
+def FromJson(json_str:str):
+    return json.loads(json_str)
+
+
+def ToJson(obj) -> str:
+    return json.dumps(obj)
+
+
 def Increase(start:int=0):
     while True:
         yield start
